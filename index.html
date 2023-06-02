@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Declaración Especial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope" onclick="openEnvelope()">
+            <div class="envelope-flap"></div>
+            <div class="envelope-content">
+                <h1>Un Mensaje Para Ti ♥ ♥</h1>
+                <p>¡Hola!</p>
+                <p>Me gustaría decirte algo muy importante.</p>
+                <p>Eres una persona especial para mí y quería expresar mis sentimientos.</p>
+                <p>Desde que te conocí, he sentido una conexión única contigo.</p>
+                <p>Admiro tu personalidad, tu inteligencia y tu hermosa sonrisa.</p>
+                <p>Me encantaría conocerte mejor y pasar más tiempo juntos.</p>
+                <p>¿Te gustaría salir conmigo?</p>
+                <div class="button-container">
+                    <button class="yes-button" onclick="handleYes()">Sí</button>
+                    <button class="no-button" onclick="handleNo()">No</button>
+                </div>
+            </div>
+            <!-- <div class="envelope-label" id="open-label" onclick="openEnvelope()">Presione aquí</div> -->
+            <div class="envelope-label">
+                <img src="istockphoto.jpg" alt="Presione aquí" onclick="openEnvelope()">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
